@@ -29,8 +29,27 @@
       margin-top: 0.5rem;
       max-width: 500px;
     }
+    .album-section {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin: 2rem 0;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .album-section img {
+      width: 200px;
+      height: auto;
+      border: 1px solid #444;
+    }
+    .tracklist {
+      text-align: left;
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
     a.listen {
-      margin-top: 2rem;
+      margin-top: 1rem;
       padding: 0.7rem 1.5rem;
       border: 1px solid #555;
       color: #e5e5e5;
@@ -79,9 +98,21 @@
     Filed as A.R.T.M. — first emergence under ARTMUSHROOM.<br/>
     Silence become home.
   </p>
+
+  <div class="album-section">
+    <img src="cover.jpg" alt="Album cover">
+    <div class="tracklist">
+      <strong>Tracklist:</strong><br/>
+      1. Spores<br/>
+      2. Mycelium Rebellion<br/>
+      3. Darkafter
+    </div>
+  </div>
+
   <a class="listen" href="https://your-bandcamp-link.com" target="_blank">
     LISTEN
   </a>
+
   <div class="footer">
     Älmhult, Sweden · A.R.T.M. · archive_001
   </div>
